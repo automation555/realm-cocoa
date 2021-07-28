@@ -4,8 +4,10 @@ x.y.z Release notes (yyyy-MM-dd)
 * None.
 
 ### Fixed
-* <How to hit and notice issue? what was the impact?> ([#????](https://github.com/realm/realm-cocoa/issues/????), since v?.?.?)
-* None.
+
+* Fix decoding a `@Persisted` property will incorrectly throw a `DecodingError.keyNotFound` 
+  for an optional property if the key is missing.
+  ([Cocoa #7358](https://github.com/realm/realm-cocoa/issues/7358), since v10.10.0)
 
 <!-- ### Breaking Changes - ONLY INCLUDE FOR NEW MAJOR version -->
 
