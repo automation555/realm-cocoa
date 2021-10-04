@@ -5,7 +5,7 @@
     },
     "repositories": [
         {
-            "dataDir": "",
+            "dataDir": "$WORKSPACE/data",
             "repository": {
                 "uid": "fb31c0598585100ea79e6a6a4de563c1",
                 "projectName": "objc1",
@@ -13,7 +13,7 @@
                     "OBJECTIVE_C"
                 ],
                 "sources": {
-                    "baseDir": "",
+                    "baseDir": "$WORKSPACE",
                     "exclusions": [
                         "thirdparty",
                         "third-party",
