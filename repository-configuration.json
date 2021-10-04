@@ -1,0 +1,72 @@
+{
+    "gammaAccess": {
+        "url": "",
+        "token": ""
+    },
+    "repositories": [
+        {
+            "dataDir": "",
+            "repository": {
+                "uid": "fb31c0598585100ea79e6a6a4de563c1",
+                "projectName": "objc1",
+                "languages": [
+                    "OBJECTIVE_C"
+                ],
+                "sources": {
+                    "baseDir": "",
+                    "exclusions": [
+                        "thirdparty",
+                        "third-party",
+                        "3rd-party",
+                        "external",
+                        "generated",
+                        "mock",
+                        "test",
+                        "build"
+                    ]
+                }
+            },
+            "settings": {
+                "additionalOptions": [],
+                "includePaths": []
+            },
+            "modules": {
+                "relevance": [
+                    {
+                        "name": "relevance",
+                        "enabled": true,
+                        "config": {
+                            "rules": [],
+                            "options": []
+                        }
+                    }
+                ],
+                "codeissues": [
+                    {
+                        "name": "gamma_cxx",
+                        "enabled": true,
+                        "config": {
+                            "rules": [],
+                            "options": []
+                        }
+                    },
+                    {
+                        "name": "gamma_generic",
+                        "enabled": false,
+                        "config": {
+                            "rules": [],
+                            "options": [
+                                {
+                                    "name": "reportDir",
+                                    "type": "upload",
+                                    "value": "",
+                                    "required": true
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}
